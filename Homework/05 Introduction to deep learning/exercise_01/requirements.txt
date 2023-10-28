@@ -33,7 +33,7 @@ pure-eval==0.2.2
 Pygments==2.15.0
 pyparsing==3.0.9
 python-dateutil==2.8.2
-pywin32==304
+# pywin32==304
 pytz==2023.3
 pyzmq==25.0.2
 seaborn==0.12.2
