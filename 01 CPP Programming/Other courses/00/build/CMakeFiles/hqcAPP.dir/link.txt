@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hqcAPP.dir/add.cpp.o CMakeFiles/hqcAPP.dir/div.cpp.o CMakeFiles/hqcAPP.dir/main.cpp.o CMakeFiles/hqcAPP.dir/mult.cpp.o CMakeFiles/hqcAPP.dir/sub.cpp.o -o hqcAPP 
