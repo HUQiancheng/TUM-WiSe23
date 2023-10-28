@@ -1,4 +1,4 @@
+/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/hqclib.dir
 /home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/hqcAPP.dir
-/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/hqcLib.dir
 /home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/edit_cache.dir
 /home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/rebuild_cache.dir

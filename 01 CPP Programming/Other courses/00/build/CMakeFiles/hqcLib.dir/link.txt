@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhqcLib.a CMakeFiles/hqcLib.dir/src/add.cpp.o CMakeFiles/hqcLib.dir/src/sub.cpp.o CMakeFiles/hqcLib.dir/src/mult.cpp.o CMakeFiles/hqcLib.dir/src/div.cpp.o
-/usr/bin/ranlib libhqcLib.a

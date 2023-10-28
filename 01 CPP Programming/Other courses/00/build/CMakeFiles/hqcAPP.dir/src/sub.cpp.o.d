@@ -1,5 +1,5 @@
-CMakeFiles/hqcLib.dir/src/add.cpp.o: \
- /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/add.cpp \
+CMakeFiles/hqcAPP.dir/src/sub.cpp.o: \
+ /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/sub.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

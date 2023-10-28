@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hqclib
+
+# Build rule for target.
+hqclib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hqclib
+.PHONY : hqclib
+
+# fast build rule for target.
+hqclib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/build
+.PHONY : hqclib/fast
+
+#=============================================================================
 # Target rules for targets named hqcAPP
 
 # Build rule for target.
@@ -128,19 +141,6 @@ hqcAPP: cmake_check_build_system
 hqcAPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/build
 .PHONY : hqcAPP/fast
-
-#=============================================================================
-# Target rules for targets named hqcLib
-
-# Build rule for target.
-hqcLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hqcLib
-.PHONY : hqcLib
-
-# fast build rule for target.
-hqcLib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/build
-.PHONY : hqcLib/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -171,7 +171,8 @@ src/add.o: src/add.cpp.o
 
 # target to build an object file
 src/add.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/add.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/add.cpp.o
 .PHONY : src/add.cpp.o
 
 src/add.i: src/add.cpp.i
@@ -179,7 +180,8 @@ src/add.i: src/add.cpp.i
 
 # target to preprocess a source file
 src/add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/add.cpp.i
 .PHONY : src/add.cpp.i
 
 src/add.s: src/add.cpp.s
@@ -187,7 +189,8 @@ src/add.s: src/add.cpp.s
 
 # target to generate assembly for a file
 src/add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/add.cpp.s
 .PHONY : src/add.cpp.s
 
 src/div.o: src/div.cpp.o
@@ -195,7 +198,8 @@ src/div.o: src/div.cpp.o
 
 # target to build an object file
 src/div.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/div.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/div.cpp.o
 .PHONY : src/div.cpp.o
 
 src/div.i: src/div.cpp.i
@@ -203,7 +207,8 @@ src/div.i: src/div.cpp.i
 
 # target to preprocess a source file
 src/div.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/div.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/div.cpp.i
 .PHONY : src/div.cpp.i
 
 src/div.s: src/div.cpp.s
@@ -211,7 +216,8 @@ src/div.s: src/div.cpp.s
 
 # target to generate assembly for a file
 src/div.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/div.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/div.cpp.s
 .PHONY : src/div.cpp.s
 
 src/mult.o: src/mult.cpp.o
@@ -219,7 +225,8 @@ src/mult.o: src/mult.cpp.o
 
 # target to build an object file
 src/mult.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/mult.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/mult.cpp.o
 .PHONY : src/mult.cpp.o
 
 src/mult.i: src/mult.cpp.i
@@ -227,7 +234,8 @@ src/mult.i: src/mult.cpp.i
 
 # target to preprocess a source file
 src/mult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/mult.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/mult.cpp.i
 .PHONY : src/mult.cpp.i
 
 src/mult.s: src/mult.cpp.s
@@ -235,7 +243,8 @@ src/mult.s: src/mult.cpp.s
 
 # target to generate assembly for a file
 src/mult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/mult.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/mult.cpp.s
 .PHONY : src/mult.cpp.s
 
 src/sub.o: src/sub.cpp.o
@@ -243,7 +252,8 @@ src/sub.o: src/sub.cpp.o
 
 # target to build an object file
 src/sub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/sub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/sub.cpp.o
 .PHONY : src/sub.cpp.o
 
 src/sub.i: src/sub.cpp.i
@@ -251,7 +261,8 @@ src/sub.i: src/sub.cpp.i
 
 # target to preprocess a source file
 src/sub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/sub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/sub.cpp.i
 .PHONY : src/sub.cpp.i
 
 src/sub.s: src/sub.cpp.s
@@ -259,7 +270,8 @@ src/sub.s: src/sub.cpp.s
 
 # target to generate assembly for a file
 src/sub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/src/sub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/src/sub.cpp.s
 .PHONY : src/sub.cpp.s
 
 # Help Target
@@ -271,7 +283,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hqcAPP"
-	@echo "... hqcLib"
+	@echo "... hqclib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

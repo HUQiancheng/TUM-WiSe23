@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/hqcAPP.dir/main.cpp.o -o hqcAPP  libhqcLib.a 
+/usr/bin/c++ CMakeFiles/hqcAPP.dir/main.cpp.o CMakeFiles/hqcAPP.dir/src/add.cpp.o CMakeFiles/hqcAPP.dir/src/div.cpp.o CMakeFiles/hqcAPP.dir/src/mult.cpp.o CMakeFiles/hqcAPP.dir/src/sub.cpp.o -o "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/output/hqcAPP"  -Wl,-rpath,"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/lib" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/lib/libhqclib.so" 
