@@ -129,53 +129,18 @@ hqcAPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/build
 .PHONY : hqcAPP/fast
 
-add.o: add.cpp.o
-.PHONY : add.o
+#=============================================================================
+# Target rules for targets named hqcLib
 
-# target to build an object file
-add.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/add.cpp.o
-.PHONY : add.cpp.o
+# Build rule for target.
+hqcLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hqcLib
+.PHONY : hqcLib
 
-add.i: add.cpp.i
-.PHONY : add.i
-
-# target to preprocess a source file
-add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/add.cpp.i
-.PHONY : add.cpp.i
-
-add.s: add.cpp.s
-.PHONY : add.s
-
-# target to generate assembly for a file
-add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/add.cpp.s
-.PHONY : add.cpp.s
-
-div.o: div.cpp.o
-.PHONY : div.o
-
-# target to build an object file
-div.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/div.cpp.o
-.PHONY : div.cpp.o
-
-div.i: div.cpp.i
-.PHONY : div.i
-
-# target to preprocess a source file
-div.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/div.cpp.i
-.PHONY : div.cpp.i
-
-div.s: div.cpp.s
-.PHONY : div.s
-
-# target to generate assembly for a file
-div.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/div.cpp.s
-.PHONY : div.cpp.s
+# fast build rule for target.
+hqcLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/build
+.PHONY : hqcLib/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -201,53 +166,101 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mult.o: mult.cpp.o
-.PHONY : mult.o
+src/add.o: src/add.cpp.o
+.PHONY : src/add.o
 
 # target to build an object file
-mult.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/mult.cpp.o
-.PHONY : mult.cpp.o
+src/add.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.o
+.PHONY : src/add.cpp.o
 
-mult.i: mult.cpp.i
-.PHONY : mult.i
+src/add.i: src/add.cpp.i
+.PHONY : src/add.i
 
 # target to preprocess a source file
-mult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/mult.cpp.i
-.PHONY : mult.cpp.i
+src/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.i
+.PHONY : src/add.cpp.i
 
-mult.s: mult.cpp.s
-.PHONY : mult.s
+src/add.s: src/add.cpp.s
+.PHONY : src/add.s
 
 # target to generate assembly for a file
-mult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/mult.cpp.s
-.PHONY : mult.cpp.s
+src/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/add.cpp.s
+.PHONY : src/add.cpp.s
 
-sub.o: sub.cpp.o
-.PHONY : sub.o
+src/div.o: src/div.cpp.o
+.PHONY : src/div.o
 
 # target to build an object file
-sub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/sub.cpp.o
-.PHONY : sub.cpp.o
+src/div.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.o
+.PHONY : src/div.cpp.o
 
-sub.i: sub.cpp.i
-.PHONY : sub.i
+src/div.i: src/div.cpp.i
+.PHONY : src/div.i
 
 # target to preprocess a source file
-sub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/sub.cpp.i
-.PHONY : sub.cpp.i
+src/div.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.i
+.PHONY : src/div.cpp.i
 
-sub.s: sub.cpp.s
-.PHONY : sub.s
+src/div.s: src/div.cpp.s
+.PHONY : src/div.s
 
 # target to generate assembly for a file
-sub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/sub.cpp.s
-.PHONY : sub.cpp.s
+src/div.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/div.cpp.s
+.PHONY : src/div.cpp.s
+
+src/mult.o: src/mult.cpp.o
+.PHONY : src/mult.o
+
+# target to build an object file
+src/mult.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.o
+.PHONY : src/mult.cpp.o
+
+src/mult.i: src/mult.cpp.i
+.PHONY : src/mult.i
+
+# target to preprocess a source file
+src/mult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.i
+.PHONY : src/mult.cpp.i
+
+src/mult.s: src/mult.cpp.s
+.PHONY : src/mult.s
+
+# target to generate assembly for a file
+src/mult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/mult.cpp.s
+.PHONY : src/mult.cpp.s
+
+src/sub.o: src/sub.cpp.o
+.PHONY : src/sub.o
+
+# target to build an object file
+src/sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.o
+.PHONY : src/sub.cpp.o
+
+src/sub.i: src/sub.cpp.i
+.PHONY : src/sub.i
+
+# target to preprocess a source file
+src/sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.i
+.PHONY : src/sub.cpp.i
+
+src/sub.s: src/sub.cpp.s
+.PHONY : src/sub.s
+
+# target to generate assembly for a file
+src/sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcLib.dir/build.make CMakeFiles/hqcLib.dir/src/sub.cpp.s
+.PHONY : src/sub.cpp.s
 
 # Help Target
 help:
@@ -258,21 +271,22 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hqcAPP"
-	@echo "... add.o"
-	@echo "... add.i"
-	@echo "... add.s"
-	@echo "... div.o"
-	@echo "... div.i"
-	@echo "... div.s"
+	@echo "... hqcLib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mult.o"
-	@echo "... mult.i"
-	@echo "... mult.s"
-	@echo "... sub.o"
-	@echo "... sub.i"
-	@echo "... sub.s"
+	@echo "... src/add.o"
+	@echo "... src/add.i"
+	@echo "... src/add.s"
+	@echo "... src/div.o"
+	@echo "... src/div.i"
+	@echo "... src/div.s"
+	@echo "... src/mult.o"
+	@echo "... src/mult.i"
+	@echo "... src/mult.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
 .PHONY : help
 
 

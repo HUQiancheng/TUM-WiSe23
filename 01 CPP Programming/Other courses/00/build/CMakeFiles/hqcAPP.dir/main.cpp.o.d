@@ -24,4 +24,4 @@ CMakeFiles/hqcAPP.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/head.h
+ /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/include/head.h
