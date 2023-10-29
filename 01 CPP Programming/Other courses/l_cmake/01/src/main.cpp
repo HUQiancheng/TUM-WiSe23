@@ -12,16 +12,14 @@
 //So actually, you can replace stdio.h with iostream.h because this is a C++ program
 #include "addition.h"
 #include "multiplication.h"
+#include "printer.h"
 
 
 int main()
 {
-    int a = 20;
-    int b = 12;
-    printf("a = %d, b = %d\n", a, b);
-    printf("a + b = %d\n", add(a, b));
-    printf("a - b = %d\n", subtract(a, b));
-    printf("a * b = %d\n", multiply(a, b));
-    printf("a / b = %f\n", divide(a, b));
+    print("a + b = %d\n", add());
+    print("a - b = %d\n", subtract());
+    print("a * b = %d\n", multiply());
+    print("a / b = %f\n", divide());
     return 0;
 }
