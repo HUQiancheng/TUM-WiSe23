@@ -1,0 +1,4 @@
+conda env list # 有作业的itdl，以及实践的ml
+conda activate <one from the list> # 当然反之就是deactive
+
+# 目前来说除了base，有kaggle的ml，i2dl的itdl,fai的AI_AIMA
