@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dhqclib_EXPORTS
 
-CXX_INCLUDES = -I"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/include"
+CXX_INCLUDES = -I"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/include"
 
 CXX_FLAGS = -fPIC -std=gnu++20
 

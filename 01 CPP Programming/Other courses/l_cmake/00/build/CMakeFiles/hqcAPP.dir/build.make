@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00"
+CMAKE_SOURCE_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build"
+CMAKE_BINARY_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hqcAPP.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/hqcAPP.dir/progress.make
 include CMakeFiles/hqcAPP.dir/flags.make
 
 CMakeFiles/hqcAPP.dir/main.cpp.o: CMakeFiles/hqcAPP.dir/flags.make
-CMakeFiles/hqcAPP.dir/main.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/main.cpp
+CMakeFiles/hqcAPP.dir/main.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/main.cpp
 CMakeFiles/hqcAPP.dir/main.cpp.o: CMakeFiles/hqcAPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hqcAPP.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/main.cpp.o -MF CMakeFiles/hqcAPP.dir/main.cpp.o.d -o CMakeFiles/hqcAPP.dir/main.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hqcAPP.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/main.cpp.o -MF CMakeFiles/hqcAPP.dir/main.cpp.o.d -o CMakeFiles/hqcAPP.dir/main.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/main.cpp"
 
 CMakeFiles/hqcAPP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hqcAPP.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/main.cpp" > CMakeFiles/hqcAPP.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/main.cpp" > CMakeFiles/hqcAPP.dir/main.cpp.i
 
 CMakeFiles/hqcAPP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hqcAPP.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/main.cpp" -o CMakeFiles/hqcAPP.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/main.cpp" -o CMakeFiles/hqcAPP.dir/main.cpp.s
 
 CMakeFiles/hqcAPP.dir/src/add.cpp.o: CMakeFiles/hqcAPP.dir/flags.make
-CMakeFiles/hqcAPP.dir/src/add.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/add.cpp
+CMakeFiles/hqcAPP.dir/src/add.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/src/add.cpp
 CMakeFiles/hqcAPP.dir/src/add.cpp.o: CMakeFiles/hqcAPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hqcAPP.dir/src/add.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/add.cpp.o -MF CMakeFiles/hqcAPP.dir/src/add.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/add.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/add.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hqcAPP.dir/src/add.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/add.cpp.o -MF CMakeFiles/hqcAPP.dir/src/add.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/add.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/add.cpp"
 
 CMakeFiles/hqcAPP.dir/src/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hqcAPP.dir/src/add.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/add.cpp" > CMakeFiles/hqcAPP.dir/src/add.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/add.cpp" > CMakeFiles/hqcAPP.dir/src/add.cpp.i
 
 CMakeFiles/hqcAPP.dir/src/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hqcAPP.dir/src/add.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/add.cpp" -o CMakeFiles/hqcAPP.dir/src/add.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/add.cpp" -o CMakeFiles/hqcAPP.dir/src/add.cpp.s
 
 CMakeFiles/hqcAPP.dir/src/div.cpp.o: CMakeFiles/hqcAPP.dir/flags.make
-CMakeFiles/hqcAPP.dir/src/div.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/div.cpp
+CMakeFiles/hqcAPP.dir/src/div.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/src/div.cpp
 CMakeFiles/hqcAPP.dir/src/div.cpp.o: CMakeFiles/hqcAPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hqcAPP.dir/src/div.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/div.cpp.o -MF CMakeFiles/hqcAPP.dir/src/div.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/div.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/div.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hqcAPP.dir/src/div.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/div.cpp.o -MF CMakeFiles/hqcAPP.dir/src/div.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/div.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/div.cpp"
 
 CMakeFiles/hqcAPP.dir/src/div.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hqcAPP.dir/src/div.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/div.cpp" > CMakeFiles/hqcAPP.dir/src/div.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/div.cpp" > CMakeFiles/hqcAPP.dir/src/div.cpp.i
 
 CMakeFiles/hqcAPP.dir/src/div.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hqcAPP.dir/src/div.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/div.cpp" -o CMakeFiles/hqcAPP.dir/src/div.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/div.cpp" -o CMakeFiles/hqcAPP.dir/src/div.cpp.s
 
 CMakeFiles/hqcAPP.dir/src/mult.cpp.o: CMakeFiles/hqcAPP.dir/flags.make
-CMakeFiles/hqcAPP.dir/src/mult.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/mult.cpp
+CMakeFiles/hqcAPP.dir/src/mult.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/src/mult.cpp
 CMakeFiles/hqcAPP.dir/src/mult.cpp.o: CMakeFiles/hqcAPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hqcAPP.dir/src/mult.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/mult.cpp.o -MF CMakeFiles/hqcAPP.dir/src/mult.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/mult.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/mult.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hqcAPP.dir/src/mult.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/mult.cpp.o -MF CMakeFiles/hqcAPP.dir/src/mult.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/mult.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/mult.cpp"
 
 CMakeFiles/hqcAPP.dir/src/mult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hqcAPP.dir/src/mult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/mult.cpp" > CMakeFiles/hqcAPP.dir/src/mult.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/mult.cpp" > CMakeFiles/hqcAPP.dir/src/mult.cpp.i
 
 CMakeFiles/hqcAPP.dir/src/mult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hqcAPP.dir/src/mult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/mult.cpp" -o CMakeFiles/hqcAPP.dir/src/mult.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/mult.cpp" -o CMakeFiles/hqcAPP.dir/src/mult.cpp.s
 
 CMakeFiles/hqcAPP.dir/src/sub.cpp.o: CMakeFiles/hqcAPP.dir/flags.make
-CMakeFiles/hqcAPP.dir/src/sub.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/sub.cpp
+CMakeFiles/hqcAPP.dir/src/sub.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/src/sub.cpp
 CMakeFiles/hqcAPP.dir/src/sub.cpp.o: CMakeFiles/hqcAPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hqcAPP.dir/src/sub.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/sub.cpp.o -MF CMakeFiles/hqcAPP.dir/src/sub.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/sub.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/sub.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hqcAPP.dir/src/sub.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hqcAPP.dir/src/sub.cpp.o -MF CMakeFiles/hqcAPP.dir/src/sub.cpp.o.d -o CMakeFiles/hqcAPP.dir/src/sub.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/sub.cpp"
 
 CMakeFiles/hqcAPP.dir/src/sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hqcAPP.dir/src/sub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/sub.cpp" > CMakeFiles/hqcAPP.dir/src/sub.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/sub.cpp" > CMakeFiles/hqcAPP.dir/src/sub.cpp.i
 
 CMakeFiles/hqcAPP.dir/src/sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hqcAPP.dir/src/sub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/src/sub.cpp" -o CMakeFiles/hqcAPP.dir/src/sub.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/src/sub.cpp" -o CMakeFiles/hqcAPP.dir/src/sub.cpp.s
 
 # Object files for target hqcAPP
 hqcAPP_OBJECTS = \
@@ -150,19 +150,19 @@ hqcAPP_OBJECTS = \
 # External object files for target hqcAPP
 hqcAPP_EXTERNAL_OBJECTS =
 
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/main.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/add.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/div.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/mult.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/sub.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/build.make
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/lib/libhqclib.so
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/output/hqcAPP\""
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/main.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/add.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/div.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/mult.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/src/sub.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/build.make
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/lib/libhqclib.so
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP: CMakeFiles/hqcAPP.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/output/hqcAPP\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hqcAPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/hqcAPP.dir/build: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/output/hqcAPP
+CMakeFiles/hqcAPP.dir/build: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/output/hqcAPP
 .PHONY : CMakeFiles/hqcAPP.dir/build
 
 CMakeFiles/hqcAPP.dir/clean:
@@ -170,6 +170,6 @@ CMakeFiles/hqcAPP.dir/clean:
 .PHONY : CMakeFiles/hqcAPP.dir/clean
 
 CMakeFiles/hqcAPP.dir/depend:
-	cd "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles/hqcAPP.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build" "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles/hqcAPP.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/hqcAPP.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/hqclib.dir/src/add.cpp.o: \
- /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/src/add.cpp \
+ /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/src/add.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,4 +24,4 @@ CMakeFiles/hqclib.dir/src/add.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/00/include/head.h
+ /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/00/include/head.h

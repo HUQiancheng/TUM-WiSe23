@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00"
+CMAKE_SOURCE_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build"
+CMAKE_BINARY_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/hqcAPP.dir/clean
 CMakeFiles/hqclib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqclib.dir/build.make CMakeFiles/hqclib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=7,8,9,10,11 "Built target hqclib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=7,8,9,10,11 "Built target hqclib"
 .PHONY : CMakeFiles/hqclib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hqclib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hqclib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" 0
 .PHONY : CMakeFiles/hqclib.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/hqclib.dir/clean:
 CMakeFiles/hqcAPP.dir/all: CMakeFiles/hqclib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hqcAPP.dir/build.make CMakeFiles/hqcAPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target hqcAPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target hqcAPP"
 .PHONY : CMakeFiles/hqcAPP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hqcAPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hqcAPP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/CMakeFiles" 0
 .PHONY : CMakeFiles/hqcAPP.dir/rule
 
 # Convenience name for target.

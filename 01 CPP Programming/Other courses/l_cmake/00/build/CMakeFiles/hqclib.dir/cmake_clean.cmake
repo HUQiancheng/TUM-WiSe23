@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/lib/libhqclib.pdb"
-  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/lib/libhqclib.so"
+  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/lib/libhqclib.pdb"
+  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/lib/libhqclib.so"
   "CMakeFiles/hqclib.dir/src/add.cpp.o"
   "CMakeFiles/hqclib.dir/src/add.cpp.o.d"
   "CMakeFiles/hqclib.dir/src/div.cpp.o"

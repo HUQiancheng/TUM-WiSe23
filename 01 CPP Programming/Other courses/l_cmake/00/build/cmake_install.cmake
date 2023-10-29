@@ -1,4 +1,4 @@
-# Install script for directory: /home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00
+# Install script for directory: /home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

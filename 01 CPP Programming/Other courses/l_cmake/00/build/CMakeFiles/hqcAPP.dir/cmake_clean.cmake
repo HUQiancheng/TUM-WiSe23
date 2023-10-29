@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/output/hqcAPP"
-  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/00/output/hqcAPP.pdb"
+  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/output/hqcAPP"
+  "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/00/output/hqcAPP.pdb"
   "CMakeFiles/hqcAPP.dir/main.cpp.o"
   "CMakeFiles/hqcAPP.dir/main.cpp.o.d"
   "CMakeFiles/hqcAPP.dir/src/add.cpp.o"
