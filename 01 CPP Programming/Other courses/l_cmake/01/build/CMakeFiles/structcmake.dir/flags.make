@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include"
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -std=gnu++20
 

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libprinter.so"
+			"path" : "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libadd.so"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +11,6 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -26,25 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 83,
+				"line" : 94,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 97,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 98,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 73,
+				"line" : 76,
 				"parent" : 0
 			}
 		]
@@ -55,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-fPIC"
+					"fragment" : "-g -fPIC"
 				},
 				{
 					"fragment" : "-std=gnu++20"
@@ -64,13 +51,13 @@
 			"defines" : 
 			[
 				{
-					"define" : "printer_EXPORTS"
+					"define" : "add_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include"
 				}
 			],
@@ -90,18 +77,7 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "add::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "mul::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "printer::@6890427a1f51a3e7e1df",
+	"id" : "add::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -109,26 +85,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-Wl,-rpath,\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib\"",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libadd.so\"",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libmul.so\"",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "printer",
-	"nameOnDisk" : "libprinter.so",
+	"name" : "add",
+	"nameOnDisk" : "libadd.so",
 	"paths" : 
 	{
 		"build" : ".",
@@ -143,6 +105,13 @@
 				0,
 				1
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
 		}
 	],
 	"sources" : 
@@ -150,14 +119,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/pr/ask.cpp",
+			"path" : "src/ad/add.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/pr/print.cpp",
+			"path" : "src/ad/sub.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/addition.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "SHARED_LIBRARY"

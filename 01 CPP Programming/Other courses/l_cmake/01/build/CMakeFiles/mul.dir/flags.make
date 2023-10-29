@@ -6,5 +6,5 @@ CXX_DEFINES = -Dmul_EXPORTS
 
 CXX_INCLUDES = -I"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include"
 
-CXX_FLAGS = -fPIC -std=gnu++20
+CXX_FLAGS = -g -fPIC -std=gnu++20
 

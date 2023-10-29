@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -shared -Wl,-soname,libadd.so -o "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libadd.so" CMakeFiles/add.dir/src/ad/add.cpp.o CMakeFiles/add.dir/src/ad/sub.cpp.o 
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libadd.so -o "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/lib/libadd.so" CMakeFiles/add.dir/src/ad/add.cpp.o CMakeFiles/add.dir/src/ad/sub.cpp.o 

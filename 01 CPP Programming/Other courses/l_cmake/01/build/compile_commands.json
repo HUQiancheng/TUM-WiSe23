@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dadd_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/add.dir/src/ad/add.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dadd_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/add.dir/src/ad/sub.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dmul_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/mul.dir/src/mu/div.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dmul_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/mul.dir/src/mu/mult.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dprinter_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/printer.dir/src/pr/ask.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/ask.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/ask.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++ -Dprinter_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -fPIC -std=gnu++20 -o CMakeFiles/printer.dir/src/pr/print.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/print.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/print.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+  "command": "/usr/bin/g++  -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/include\" -g -std=gnu++20 -o CMakeFiles/structcmake.dir/src/main.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/main.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/main.cpp"
+}
+]
