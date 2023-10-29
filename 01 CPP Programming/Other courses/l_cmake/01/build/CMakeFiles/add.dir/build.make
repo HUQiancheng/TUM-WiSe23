@@ -73,29 +73,29 @@ CMakeFiles/add.dir/src/ad/add.cpp.o: CMakeFiles/add.dir/flags.make
 CMakeFiles/add.dir/src/ad/add.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/ad/add.cpp
 CMakeFiles/add.dir/src/ad/add.cpp.o: CMakeFiles/add.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add.dir/src/ad/add.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add.dir/src/ad/add.cpp.o -MF CMakeFiles/add.dir/src/ad/add.cpp.o.d -o CMakeFiles/add.dir/src/ad/add.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add.dir/src/ad/add.cpp.o -MF CMakeFiles/add.dir/src/ad/add.cpp.o.d -o CMakeFiles/add.dir/src/ad/add.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp"
 
 CMakeFiles/add.dir/src/ad/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add.dir/src/ad/add.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp" > CMakeFiles/add.dir/src/ad/add.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp" > CMakeFiles/add.dir/src/ad/add.cpp.i
 
 CMakeFiles/add.dir/src/ad/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add.dir/src/ad/add.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp" -o CMakeFiles/add.dir/src/ad/add.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/add.cpp" -o CMakeFiles/add.dir/src/ad/add.cpp.s
 
 CMakeFiles/add.dir/src/ad/sub.cpp.o: CMakeFiles/add.dir/flags.make
 CMakeFiles/add.dir/src/ad/sub.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/ad/sub.cpp
 CMakeFiles/add.dir/src/ad/sub.cpp.o: CMakeFiles/add.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/add.dir/src/ad/sub.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add.dir/src/ad/sub.cpp.o -MF CMakeFiles/add.dir/src/ad/sub.cpp.o.d -o CMakeFiles/add.dir/src/ad/sub.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/add.dir/src/ad/sub.cpp.o -MF CMakeFiles/add.dir/src/ad/sub.cpp.o.d -o CMakeFiles/add.dir/src/ad/sub.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp"
 
 CMakeFiles/add.dir/src/ad/sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add.dir/src/ad/sub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp" > CMakeFiles/add.dir/src/ad/sub.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp" > CMakeFiles/add.dir/src/ad/sub.cpp.i
 
 CMakeFiles/add.dir/src/ad/sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add.dir/src/ad/sub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp" -o CMakeFiles/add.dir/src/ad/sub.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/ad/sub.cpp" -o CMakeFiles/add.dir/src/ad/sub.cpp.s
 
 # Object files for target add
 add_OBJECTS = \

@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -54,7 +54,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=structmake
+CMAKE_PROJECT_NAME:STATIC=structcmake
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -216,13 +216,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 printer_LIB_DEPENDS:STATIC=general;add;general;mul;
 
 //Value Computed by CMake
-structmake_BINARY_DIR:STATIC=/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build
+structcmake_BINARY_DIR:STATIC=/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build
 
 //Value Computed by CMake
-structmake_IS_TOP_LEVEL:STATIC=ON
+structcmake_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-structmake_SOURCE_DIR:STATIC=/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01
+structcmake_SOURCE_DIR:STATIC=/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01
 
 
 ########################

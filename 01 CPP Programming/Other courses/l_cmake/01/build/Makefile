@@ -156,17 +156,17 @@ mul/fast:
 .PHONY : mul/fast
 
 #=============================================================================
-# Target rules for targets named strutcmake
+# Target rules for targets named structcmake
 
 # Build rule for target.
-strutcmake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strutcmake
-.PHONY : strutcmake
+structcmake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 structcmake
+.PHONY : structcmake
 
 # fast build rule for target.
-strutcmake/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/build
-.PHONY : strutcmake/fast
+structcmake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/build
+.PHONY : structcmake/fast
 
 src/ad/add.o: src/ad/add.cpp.o
 .PHONY : src/ad/add.o
@@ -221,7 +221,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -229,7 +229,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -237,7 +237,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/mu/div.o: src/mu/div.cpp.o
@@ -245,7 +245,6 @@ src/mu/div.o: src/mu/div.cpp.o
 
 # target to build an object file
 src/mu/div.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/div.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/div.cpp.o
 .PHONY : src/mu/div.cpp.o
 
@@ -254,7 +253,6 @@ src/mu/div.i: src/mu/div.cpp.i
 
 # target to preprocess a source file
 src/mu/div.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/div.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/div.cpp.i
 .PHONY : src/mu/div.cpp.i
 
@@ -263,7 +261,6 @@ src/mu/div.s: src/mu/div.cpp.s
 
 # target to generate assembly for a file
 src/mu/div.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/div.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/div.cpp.s
 .PHONY : src/mu/div.cpp.s
 
@@ -272,7 +269,6 @@ src/mu/mult.o: src/mu/mult.cpp.o
 
 # target to build an object file
 src/mu/mult.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/mult.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/mult.cpp.o
 .PHONY : src/mu/mult.cpp.o
 
@@ -281,7 +277,6 @@ src/mu/mult.i: src/mu/mult.cpp.i
 
 # target to preprocess a source file
 src/mu/mult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/mult.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/mult.cpp.i
 .PHONY : src/mu/mult.cpp.i
 
@@ -290,9 +285,56 @@ src/mu/mult.s: src/mu/mult.cpp.s
 
 # target to generate assembly for a file
 src/mu/mult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/mu/mult.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mul.dir/build.make CMakeFiles/mul.dir/src/mu/mult.cpp.s
 .PHONY : src/mu/mult.cpp.s
+
+src/pr/ask.o: src/pr/ask.cpp.o
+.PHONY : src/pr/ask.o
+
+# target to build an object file
+src/pr/ask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/ask.cpp.o
+.PHONY : src/pr/ask.cpp.o
+
+src/pr/ask.i: src/pr/ask.cpp.i
+.PHONY : src/pr/ask.i
+
+# target to preprocess a source file
+src/pr/ask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/ask.cpp.i
+.PHONY : src/pr/ask.cpp.i
+
+src/pr/ask.s: src/pr/ask.cpp.s
+.PHONY : src/pr/ask.s
+
+# target to generate assembly for a file
+src/pr/ask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/ask.cpp.s
+.PHONY : src/pr/ask.cpp.s
+
+src/pr/print.o: src/pr/print.cpp.o
+.PHONY : src/pr/print.o
+
+# target to build an object file
+src/pr/print.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/print.cpp.o
+.PHONY : src/pr/print.cpp.o
+
+src/pr/print.i: src/pr/print.cpp.i
+.PHONY : src/pr/print.i
+
+# target to preprocess a source file
+src/pr/print.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/print.cpp.i
+.PHONY : src/pr/print.cpp.i
+
+src/pr/print.s: src/pr/print.cpp.s
+.PHONY : src/pr/print.s
+
+# target to generate assembly for a file
+src/pr/print.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer.dir/build.make CMakeFiles/printer.dir/src/pr/print.cpp.s
+.PHONY : src/pr/print.cpp.s
 
 # Help Target
 help:
@@ -305,7 +347,7 @@ help:
 	@echo "... add"
 	@echo "... mul"
 	@echo "... printer"
-	@echo "... strutcmake"
+	@echo "... structcmake"
 	@echo "... src/ad/add.o"
 	@echo "... src/ad/add.i"
 	@echo "... src/ad/add.s"
@@ -321,6 +363,12 @@ help:
 	@echo "... src/mu/mult.o"
 	@echo "... src/mu/mult.i"
 	@echo "... src/mu/mult.s"
+	@echo "... src/pr/ask.o"
+	@echo "... src/pr/ask.i"
+	@echo "... src/pr/ask.s"
+	@echo "... src/pr/print.o"
+	@echo "... src/pr/print.i"
+	@echo "... src/pr/print.s"
 .PHONY : help
 
 

@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "structcmake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add-676f6ec8e68ed81828bf.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mul::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mul-f3ff61c2b32794796ebd.json",
+					"name" : "mul",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer-80b8089df169a9eecdb2.json",
+					"name" : "printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "structcmake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-structcmake-b699ce9fd41d51b39985.json",
+					"name" : "structcmake",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build",
+		"source" : "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

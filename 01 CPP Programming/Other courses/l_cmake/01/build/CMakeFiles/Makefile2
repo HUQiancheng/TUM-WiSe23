@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other cour
 all: CMakeFiles/printer.dir/all
 all: CMakeFiles/add.dir/all
 all: CMakeFiles/mul.dir/all
-all: CMakeFiles/strutcmake.dir/all
+all: CMakeFiles/structcmake.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,7 +77,7 @@ preinstall:
 clean: CMakeFiles/printer.dir/clean
 clean: CMakeFiles/add.dir/clean
 clean: CMakeFiles/mul.dir/clean
-clean: CMakeFiles/strutcmake.dir/clean
+clean: CMakeFiles/structcmake.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -160,32 +160,32 @@ CMakeFiles/mul.dir/clean:
 .PHONY : CMakeFiles/mul.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/strutcmake.dir
+# Target rules for target CMakeFiles/structcmake.dir
 
 # All Build rule for target.
-CMakeFiles/strutcmake.dir/all: CMakeFiles/printer.dir/all
-CMakeFiles/strutcmake.dir/all: CMakeFiles/add.dir/all
-CMakeFiles/strutcmake.dir/all: CMakeFiles/mul.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=10,11 "Built target strutcmake"
-.PHONY : CMakeFiles/strutcmake.dir/all
+CMakeFiles/structcmake.dir/all: CMakeFiles/printer.dir/all
+CMakeFiles/structcmake.dir/all: CMakeFiles/add.dir/all
+CMakeFiles/structcmake.dir/all: CMakeFiles/mul.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=10,11 "Built target structcmake"
+.PHONY : CMakeFiles/structcmake.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/strutcmake.dir/rule: cmake_check_build_system
+CMakeFiles/structcmake.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strutcmake.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/structcmake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" 0
-.PHONY : CMakeFiles/strutcmake.dir/rule
+.PHONY : CMakeFiles/structcmake.dir/rule
 
 # Convenience name for target.
-strutcmake: CMakeFiles/strutcmake.dir/rule
-.PHONY : strutcmake
+structcmake: CMakeFiles/structcmake.dir/rule
+.PHONY : structcmake
 
 # clean rule for target.
-CMakeFiles/strutcmake.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/strutcmake.dir/build.make CMakeFiles/strutcmake.dir/clean
-.PHONY : CMakeFiles/strutcmake.dir/clean
+CMakeFiles/structcmake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structcmake.dir/build.make CMakeFiles/structcmake.dir/clean
+.PHONY : CMakeFiles/structcmake.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

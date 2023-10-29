@@ -69,44 +69,44 @@ include CMakeFiles/printer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/printer.dir/flags.make
 
-CMakeFiles/printer.dir/src/mu/div.cpp.o: CMakeFiles/printer.dir/flags.make
-CMakeFiles/printer.dir/src/mu/div.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/mu/div.cpp
-CMakeFiles/printer.dir/src/mu/div.cpp.o: CMakeFiles/printer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/printer.dir/src/mu/div.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/printer.dir/src/mu/div.cpp.o -MF CMakeFiles/printer.dir/src/mu/div.cpp.o.d -o CMakeFiles/printer.dir/src/mu/div.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp"
+CMakeFiles/printer.dir/src/pr/ask.cpp.o: CMakeFiles/printer.dir/flags.make
+CMakeFiles/printer.dir/src/pr/ask.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/pr/ask.cpp
+CMakeFiles/printer.dir/src/pr/ask.cpp.o: CMakeFiles/printer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/printer.dir/src/pr/ask.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/printer.dir/src/pr/ask.cpp.o -MF CMakeFiles/printer.dir/src/pr/ask.cpp.o.d -o CMakeFiles/printer.dir/src/pr/ask.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/ask.cpp"
 
-CMakeFiles/printer.dir/src/mu/div.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/src/mu/div.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" > CMakeFiles/printer.dir/src/mu/div.cpp.i
+CMakeFiles/printer.dir/src/pr/ask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/src/pr/ask.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/ask.cpp" > CMakeFiles/printer.dir/src/pr/ask.cpp.i
 
-CMakeFiles/printer.dir/src/mu/div.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/src/mu/div.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" -o CMakeFiles/printer.dir/src/mu/div.cpp.s
+CMakeFiles/printer.dir/src/pr/ask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/src/pr/ask.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/ask.cpp" -o CMakeFiles/printer.dir/src/pr/ask.cpp.s
 
-CMakeFiles/printer.dir/src/mu/mult.cpp.o: CMakeFiles/printer.dir/flags.make
-CMakeFiles/printer.dir/src/mu/mult.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/mu/mult.cpp
-CMakeFiles/printer.dir/src/mu/mult.cpp.o: CMakeFiles/printer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/printer.dir/src/mu/mult.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/printer.dir/src/mu/mult.cpp.o -MF CMakeFiles/printer.dir/src/mu/mult.cpp.o.d -o CMakeFiles/printer.dir/src/mu/mult.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp"
+CMakeFiles/printer.dir/src/pr/print.cpp.o: CMakeFiles/printer.dir/flags.make
+CMakeFiles/printer.dir/src/pr/print.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/pr/print.cpp
+CMakeFiles/printer.dir/src/pr/print.cpp.o: CMakeFiles/printer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/printer.dir/src/pr/print.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/printer.dir/src/pr/print.cpp.o -MF CMakeFiles/printer.dir/src/pr/print.cpp.o.d -o CMakeFiles/printer.dir/src/pr/print.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/print.cpp"
 
-CMakeFiles/printer.dir/src/mu/mult.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/src/mu/mult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" > CMakeFiles/printer.dir/src/mu/mult.cpp.i
+CMakeFiles/printer.dir/src/pr/print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/src/pr/print.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/print.cpp" > CMakeFiles/printer.dir/src/pr/print.cpp.i
 
-CMakeFiles/printer.dir/src/mu/mult.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/src/mu/mult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" -o CMakeFiles/printer.dir/src/mu/mult.cpp.s
+CMakeFiles/printer.dir/src/pr/print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/src/pr/print.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/pr/print.cpp" -o CMakeFiles/printer.dir/src/pr/print.cpp.s
 
 # Object files for target printer
 printer_OBJECTS = \
-"CMakeFiles/printer.dir/src/mu/div.cpp.o" \
-"CMakeFiles/printer.dir/src/mu/mult.cpp.o"
+"CMakeFiles/printer.dir/src/pr/ask.cpp.o" \
+"CMakeFiles/printer.dir/src/pr/print.cpp.o"
 
 # External object files for target printer
 printer_EXTERNAL_OBJECTS =
 
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: CMakeFiles/printer.dir/src/mu/div.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: CMakeFiles/printer.dir/src/mu/mult.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: CMakeFiles/printer.dir/src/pr/ask.cpp.o
+/home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: CMakeFiles/printer.dir/src/pr/print.cpp.o
 /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: CMakeFiles/printer.dir/build.make
 /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libadd.so
 /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libprinter.so: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/lib/libmul.so

@@ -126,5 +126,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/printer.dir/DependInfo.cmake"
   "CMakeFiles/add.dir/DependInfo.cmake"
   "CMakeFiles/mul.dir/DependInfo.cmake"
-  "CMakeFiles/strutcmake.dir/DependInfo.cmake"
+  "CMakeFiles/structcmake.dir/DependInfo.cmake"
   )

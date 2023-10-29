@@ -73,29 +73,29 @@ CMakeFiles/mul.dir/src/mu/div.cpp.o: CMakeFiles/mul.dir/flags.make
 CMakeFiles/mul.dir/src/mu/div.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/mu/div.cpp
 CMakeFiles/mul.dir/src/mu/div.cpp.o: CMakeFiles/mul.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mul.dir/src/mu/div.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mul.dir/src/mu/div.cpp.o -MF CMakeFiles/mul.dir/src/mu/div.cpp.o.d -o CMakeFiles/mul.dir/src/mu/div.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mul.dir/src/mu/div.cpp.o -MF CMakeFiles/mul.dir/src/mu/div.cpp.o.d -o CMakeFiles/mul.dir/src/mu/div.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp"
 
 CMakeFiles/mul.dir/src/mu/div.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mul.dir/src/mu/div.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" > CMakeFiles/mul.dir/src/mu/div.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" > CMakeFiles/mul.dir/src/mu/div.cpp.i
 
 CMakeFiles/mul.dir/src/mu/div.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mul.dir/src/mu/div.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" -o CMakeFiles/mul.dir/src/mu/div.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/div.cpp" -o CMakeFiles/mul.dir/src/mu/div.cpp.s
 
 CMakeFiles/mul.dir/src/mu/mult.cpp.o: CMakeFiles/mul.dir/flags.make
 CMakeFiles/mul.dir/src/mu/mult.cpp.o: /home/lukas/Desktop/TUM-WiSe23/01\ CPP\ Programming/Other\ courses/l_cmake/01/src/mu/mult.cpp
 CMakeFiles/mul.dir/src/mu/mult.cpp.o: CMakeFiles/mul.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mul.dir/src/mu/mult.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mul.dir/src/mu/mult.cpp.o -MF CMakeFiles/mul.dir/src/mu/mult.cpp.o.d -o CMakeFiles/mul.dir/src/mu/mult.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mul.dir/src/mu/mult.cpp.o -MF CMakeFiles/mul.dir/src/mu/mult.cpp.o.d -o CMakeFiles/mul.dir/src/mu/mult.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp"
 
 CMakeFiles/mul.dir/src/mu/mult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mul.dir/src/mu/mult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" > CMakeFiles/mul.dir/src/mu/mult.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" > CMakeFiles/mul.dir/src/mu/mult.cpp.i
 
 CMakeFiles/mul.dir/src/mu/mult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mul.dir/src/mu/mult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" -o CMakeFiles/mul.dir/src/mu/mult.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/Other courses/l_cmake/01/src/mu/mult.cpp" -o CMakeFiles/mul.dir/src/mu/mult.cpp.s
 
 # Object files for target mul
 mul_OBJECTS = \
