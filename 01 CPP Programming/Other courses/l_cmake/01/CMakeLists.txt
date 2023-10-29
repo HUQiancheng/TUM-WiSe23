@@ -57,6 +57,9 @@
 
 # # But we can also install the libraries and the executable to the system.
 
+
+# -------------------this is not correct! you should not add header files in any libraries
+
 # Required cmake version
 cmake_minimum_required(VERSION 3.10)
 
