@@ -14,7 +14,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/inc)
 add_library(func SHARED
             ${CMAKE_CURRENT_SOURCE_DIR}/src/classifyAPoint.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/src/comparison.cpp)
-# # set the output path of the library
+            
 # set_target_properties(func PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 # create an executable named wknnc

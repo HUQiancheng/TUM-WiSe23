@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libfunc.so -o libfunc.so CMakeFiles/func.dir/src/classifyAPoint.cpp.o CMakeFiles/func.dir/src/comparison.cpp.o 

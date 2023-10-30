@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#include "inc/point.h"
-#include "inc/header.h"
+#include "point.h"
+#include "header.h"
 
 using namespace std;
 
