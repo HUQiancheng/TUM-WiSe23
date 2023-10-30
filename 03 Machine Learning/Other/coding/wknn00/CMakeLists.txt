@@ -21,7 +21,7 @@ set_target_properties(func PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_S
 add_executable(wknnc ${CMAKE_CURRENT_SOURCE_DIR} wknnc.cpp)
 
 # set the output path of the executable
-set_target_properties(wknnc PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+set_target_properties(wknnc PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 # link the library to the executable
 target_link_libraries(wknnc func)

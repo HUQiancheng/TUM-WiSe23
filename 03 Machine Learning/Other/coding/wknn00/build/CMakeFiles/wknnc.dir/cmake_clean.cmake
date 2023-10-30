@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/bin/wknnc"
-  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/bin/wknnc.pdb"
+  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/wknnc"
+  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/wknnc.pdb"
   "CMakeFiles/wknnc.dir/wknnc.cpp.o"
   "CMakeFiles/wknnc.dir/wknnc.cpp.o.d"
 )
