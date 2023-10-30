@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/wknnc.dir/src/wknnc.cpp.o -o wknnc  -Wl,-rpath,"/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/lib" "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/lib/libfunc.so" 
+/usr/bin/c++ -rdynamic CMakeFiles/wknnc.dir/wknnc.cpp.o -o "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/bin/wknnc"  -Wl,-rpath,"/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/lib" "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/lib/libfunc.so" 

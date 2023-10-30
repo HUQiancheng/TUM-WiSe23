@@ -190,29 +190,29 @@ src/comparison.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/src/comparison.cpp.s
 .PHONY : src/comparison.cpp.s
 
-src/wknnc.o: src/wknnc.cpp.o
-.PHONY : src/wknnc.o
+wknnc.o: wknnc.cpp.o
+.PHONY : wknnc.o
 
 # target to build an object file
-src/wknnc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/src/wknnc.cpp.o
-.PHONY : src/wknnc.cpp.o
+wknnc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/wknnc.cpp.o
+.PHONY : wknnc.cpp.o
 
-src/wknnc.i: src/wknnc.cpp.i
-.PHONY : src/wknnc.i
+wknnc.i: wknnc.cpp.i
+.PHONY : wknnc.i
 
 # target to preprocess a source file
-src/wknnc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/src/wknnc.cpp.i
-.PHONY : src/wknnc.cpp.i
+wknnc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/wknnc.cpp.i
+.PHONY : wknnc.cpp.i
 
-src/wknnc.s: src/wknnc.cpp.s
-.PHONY : src/wknnc.s
+wknnc.s: wknnc.cpp.s
+.PHONY : wknnc.s
 
 # target to generate assembly for a file
-src/wknnc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/src/wknnc.cpp.s
-.PHONY : src/wknnc.cpp.s
+wknnc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wknnc.dir/build.make CMakeFiles/wknnc.dir/wknnc.cpp.s
+.PHONY : wknnc.cpp.s
 
 # Help Target
 help:
@@ -230,9 +230,9 @@ help:
 	@echo "... src/comparison.o"
 	@echo "... src/comparison.i"
 	@echo "... src/comparison.s"
-	@echo "... src/wknnc.o"
-	@echo "... src/wknnc.i"
-	@echo "... src/wknnc.s"
+	@echo "... wknnc.o"
+	@echo "... wknnc.i"
+	@echo "... wknnc.s"
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/wknnc.cpp" "CMakeFiles/wknnc.dir/src/wknnc.cpp.o" "gcc" "CMakeFiles/wknnc.dir/src/wknnc.cpp.o.d"
+  "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/wknnc.cpp" "CMakeFiles/wknnc.dir/wknnc.cpp.o" "gcc" "CMakeFiles/wknnc.dir/wknnc.cpp.o.d"
   )
 
 # Targets to which this target links.

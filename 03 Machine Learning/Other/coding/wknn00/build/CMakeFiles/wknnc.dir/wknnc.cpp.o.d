@@ -1,5 +1,5 @@
-CMakeFiles/wknnc.dir/src/wknnc.cpp.o: \
- /home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/src/wknnc.cpp \
+CMakeFiles/wknnc.dir/wknnc.cpp.o: \
+ /home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/wknnc.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h \
  /usr/include/c++/13/cassert \

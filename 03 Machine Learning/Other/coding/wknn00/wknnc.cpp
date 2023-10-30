@@ -1,4 +1,3 @@
-// C++ program to find groups of unknown Points using K nearest neighbour algorithm.
 #include <bits/stdc++.h>
 #include "point.h"
 #include "header.h"
