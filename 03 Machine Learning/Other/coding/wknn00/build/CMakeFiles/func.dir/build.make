@@ -73,29 +73,29 @@ CMakeFiles/func.dir/src/classifyAPoint.cpp.o: CMakeFiles/func.dir/flags.make
 CMakeFiles/func.dir/src/classifyAPoint.cpp.o: /home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/src/classifyAPoint.cpp
 CMakeFiles/func.dir/src/classifyAPoint.cpp.o: CMakeFiles/func.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/func.dir/src/classifyAPoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/src/classifyAPoint.cpp.o -MF CMakeFiles/func.dir/src/classifyAPoint.cpp.o.d -o CMakeFiles/func.dir/src/classifyAPoint.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/src/classifyAPoint.cpp.o -MF CMakeFiles/func.dir/src/classifyAPoint.cpp.o.d -o CMakeFiles/func.dir/src/classifyAPoint.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp"
 
 CMakeFiles/func.dir/src/classifyAPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/func.dir/src/classifyAPoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp" > CMakeFiles/func.dir/src/classifyAPoint.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp" > CMakeFiles/func.dir/src/classifyAPoint.cpp.i
 
 CMakeFiles/func.dir/src/classifyAPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/func.dir/src/classifyAPoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp" -o CMakeFiles/func.dir/src/classifyAPoint.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/classifyAPoint.cpp" -o CMakeFiles/func.dir/src/classifyAPoint.cpp.s
 
 CMakeFiles/func.dir/src/comparison.cpp.o: CMakeFiles/func.dir/flags.make
 CMakeFiles/func.dir/src/comparison.cpp.o: /home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/src/comparison.cpp
 CMakeFiles/func.dir/src/comparison.cpp.o: CMakeFiles/func.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/func.dir/src/comparison.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/src/comparison.cpp.o -MF CMakeFiles/func.dir/src/comparison.cpp.o.d -o CMakeFiles/func.dir/src/comparison.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/src/comparison.cpp.o -MF CMakeFiles/func.dir/src/comparison.cpp.o.d -o CMakeFiles/func.dir/src/comparison.cpp.o -c "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp"
 
 CMakeFiles/func.dir/src/comparison.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/func.dir/src/comparison.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp" > CMakeFiles/func.dir/src/comparison.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp" > CMakeFiles/func.dir/src/comparison.cpp.i
 
 CMakeFiles/func.dir/src/comparison.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/func.dir/src/comparison.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp" -o CMakeFiles/func.dir/src/comparison.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/src/comparison.cpp" -o CMakeFiles/func.dir/src/comparison.cpp.s
 
 # Object files for target func
 func_OBJECTS = \
@@ -105,15 +105,15 @@ func_OBJECTS = \
 # External object files for target func
 func_EXTERNAL_OBJECTS =
 
-/home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/lib/libfunc.so: CMakeFiles/func.dir/src/classifyAPoint.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/lib/libfunc.so: CMakeFiles/func.dir/src/comparison.cpp.o
-/home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/lib/libfunc.so: CMakeFiles/func.dir/build.make
-/home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/lib/libfunc.so: CMakeFiles/func.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library \"/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/lib/libfunc.so\""
+libfunc.so: CMakeFiles/func.dir/src/classifyAPoint.cpp.o
+libfunc.so: CMakeFiles/func.dir/src/comparison.cpp.o
+libfunc.so: CMakeFiles/func.dir/build.make
+libfunc.so: CMakeFiles/func.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libfunc.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/func.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/func.dir/build: /home/lukas/Desktop/TUM-WiSe23/03\ Machine\ Learning/Other/coding/wknn00/lib/libfunc.so
+CMakeFiles/func.dir/build: libfunc.so
 .PHONY : CMakeFiles/func.dir/build
 
 CMakeFiles/func.dir/clean:

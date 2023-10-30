@@ -1,0 +1,4 @@
+/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build-debug/CMakeFiles/func.dir
+/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build-debug/CMakeFiles/wknnc.dir
+/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build-debug/CMakeFiles/edit_cache.dir
+/home/lukas/Desktop/TUM-WiSe23/03 Machine Learning/Other/coding/wknn00/build-debug/CMakeFiles/rebuild_cache.dir
