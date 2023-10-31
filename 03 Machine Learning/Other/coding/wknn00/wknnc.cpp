@@ -18,7 +18,6 @@ int main()
 	arr[1].y = 5;
 	arr[1].val = 0;
 
-	arr[2].x = 5;
 	arr[2].y = 3;
 	arr[2].val = 1;
 
@@ -56,7 +55,7 @@ int main()
 
     arr[11].x = 3;
 	arr[11].y = 4.6;
-	arr[11].val = 0.8;
+	arr[11].val = 1;
 
 	arr[12].x = 3.5;
 	arr[12].y = 8;
@@ -81,7 +80,7 @@ int main()
 	/*Testing Point*/
 	Point p;
 	p.x = 2.5;
-	p.y = 7;
+	p.y = 6;
 
 	// Parameter to decide group of the testing point
 	int k = 4;

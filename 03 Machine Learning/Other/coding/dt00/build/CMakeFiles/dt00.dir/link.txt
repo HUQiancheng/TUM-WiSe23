@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/dt00.dir/dt00.cpp.o -o dt00 
