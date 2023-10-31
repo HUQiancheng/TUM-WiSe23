@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/runhw02.dir/run.cpp.o -o runhw02  -Wl,-rpath,/home/lukas/coding/homework/homework_repo/build/hw02 libhw02.so 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/testhw02.dir/test02.cpp.o -o testhw02  -Wl,-rpath,/home/lukas/coding/homework/homework_repo/build/hw02 ../../hw02/libhw02.so -lpthread 

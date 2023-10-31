@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/lukas/coding/homework/homework_repo/build/tests/hw02",
+  "command": "/usr/bin/g++  -I/home/lukas/coding/homework/homework_repo/hw02 -g -std=c++20 -o CMakeFiles/testhw02.dir/test02.cpp.o -c /home/lukas/coding/homework/homework_repo/tests/hw02/test02.cpp",
+  "file": "/home/lukas/coding/homework/homework_repo/tests/hw02/test02.cpp"
+},
+{
+  "directory": "/home/lukas/coding/homework/homework_repo/build/hw02",
+  "command": "/usr/bin/g++ -Dhw02_EXPORTS -I/home/lukas/coding/homework/homework_repo/hw02 -g -fPIC -Wall -Wextra -Wconversion -pedantic -Wfatal-errors -std=c++20 -o CMakeFiles/hw02.dir/combinatorics.cpp.o -c /home/lukas/coding/homework/homework_repo/hw02/combinatorics.cpp",
+  "file": "/home/lukas/coding/homework/homework_repo/hw02/combinatorics.cpp"
+},
+{
+  "directory": "/home/lukas/coding/homework/homework_repo/build/hw02",
+  "command": "/usr/bin/g++  -I/home/lukas/coding/homework/homework_repo/hw02 -g -Wall -Wextra -Wconversion -pedantic -Wfatal-errors -std=c++20 -o CMakeFiles/runhw02.dir/run.cpp.o -c /home/lukas/coding/homework/homework_repo/hw02/run.cpp",
+  "file": "/home/lukas/coding/homework/homework_repo/hw02/run.cpp"
+}
+]

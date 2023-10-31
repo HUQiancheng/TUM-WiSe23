@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libhw02.so -o libhw02.so CMakeFiles/hw02.dir/combinatorics.cpp.o 
