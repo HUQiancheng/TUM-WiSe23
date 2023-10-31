@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++ -Dex3_lib_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -fPIC -std=gnu++20 -o CMakeFiles/ex3_lib.dir/src/arrays.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/arrays.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/arrays.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++ -Dex3_lib_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -fPIC -std=gnu++20 -o CMakeFiles/ex3_lib.dir/src/expressions.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/expressions.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/expressions.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++ -Dex3_lib_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -fPIC -std=gnu++20 -o CMakeFiles/ex3_lib.dir/src/initials.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/initials.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/initials.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++ -Dex3_lib_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -fPIC -std=gnu++20 -o CMakeFiles/ex3_lib.dir/src/references.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/references.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/references.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++ -Dex3_lib_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -fPIC -std=gnu++20 -o CMakeFiles/ex3_lib.dir/src/typeconvert.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/typeconvert.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/src/typeconvert.cpp"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/build",
+  "command": "/usr/bin/g++  -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/inc\" -g -std=gnu++20 -o CMakeFiles/ex3.dir/main.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/main.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex3/main.cpp"
+}
+]
