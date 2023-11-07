@@ -1,5 +1,4 @@
-#include "func.h"
-#include "lamb.h"
+#include "header.h"
 #include <iostream>
 
 int main()

@@ -2,11 +2,6 @@
 #define _FUNC_H_
 
 #include <iostream>
-#include <cmath>
-#include <vector>
-#include <algorithm>
-#include <array>
-#include <string>
 #include <functional>
 
 namespace func
