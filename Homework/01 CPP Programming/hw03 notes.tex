@@ -1,0 +1,63 @@
+\textbf{GitHub Copilot:} \texttt{std::string} and \texttt{std::string\_view} are both used to handle string data in C++, but they have some key differences:
+
+\begin{itemize}
+    \item \texttt{std::string} is a mutable sequence of characters that owns its data. This means that when you create or copy a \texttt{std::string}, memory is allocated to hold its data, and this memory is freed when the \texttt{std::string} is destroyed.
+    \item \texttt{std::string\_view}, introduced in C++17, is a non-owning reference to a string. It provides a lightweight, read-only view into the string's characters without owning the actual data. This can be more efficient in some cases because it avoids the need to copy or allocate memory for the string data.
+\end{itemize}
+
+However, because \texttt{std::string\_view} does not own its data, you need to be careful to ensure that the underlying string data outlives the \texttt{std::string\_view}. If the original string is destroyed or modified, the \texttt{std::string\_view} may become invalid.
+
+\textbf{GitHub Copilot:} If you define the function as \texttt{bool remove(storage\& contacts, std::string\_view name)}, the function will operate on the original \texttt{contacts} object, not a copy. This is because, in C++, function parameters are passed by value by default, which means a copy is made.
+
+In this case, the \texttt{remove} function would still find the name in the copied \texttt{contacts} object, erase the corresponding number and name from the copied object, and return \texttt{true}. However, these changes would not affect the original \texttt{contacts} object that was passed into the function. The original \texttt{contacts} object would remain unchanged because the function operated on a copy, not the original.
+
+So, if you want the function to modify the original \texttt{contacts} object, you need to pass it by reference using \texttt{storage\& contacts}, not by value using \texttt{storage contacts}.
+
+\documentclass{article}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Summary of Discussion on C++ Code}
+\author{GitHub Copilot}
+\date{\today}
+
+\maketitle
+
+\section{Code Overview}
+
+The provided C++ code defines a function named \texttt{add} in the file \texttt{contact\_list.cpp}. The function is used to add a contact to a storage object. The function signature is as follows:
+
+\begin{lstlisting}[language=C++]
+bool add(storage& contacts, std::string_view name, number_t number)
+\end{lstlisting}
+
+\section{Function Components}
+
+The function takes three parameters:
+
+\begin{itemize}
+    \item \texttt{contacts}: A reference to a \texttt{storage} object.
+    \item \texttt{name}: A \texttt{std::string\_view} representing the name of the contact.
+    \item \texttt{number}: A \texttt{number\_t} representing the contact's number. \texttt{number\_t} is a type alias for \texttt{int64\_t}.
+\end{itemize}
+
+The function returns a boolean value indicating whether the contact was added successfully.
+
+\section{Function Logic}
+
+The function first checks if the \texttt{name} is empty or already exists in the \texttt{contacts.names} vector. If either condition is true, the function returns \texttt{false}. 
+
+If the name is valid, the function adds the \texttt{name} and \texttt{number} to the \texttt{contacts.names} and \texttt{contacts.numbers} vectors, respectively, and returns \texttt{true}.
+
+\section{C++ Concepts}
+
+The function uses several key C++ concepts:
+
+\begin{itemize}
+    \item \textbf{References}: The \texttt{contacts} parameter is passed by reference, allowing the function to modify the original \texttt{storage} object.
+    \item \textbf{STL Algorithms and Iterators}: The function uses the \texttt{std::find} algorithm to search for \texttt{name} in the \texttt{contacts.names} vector. The \texttt{begin()} and \texttt{end()} functions return iterators to the beginning and end of the vector.
+    \item \textbf{Vector Operations}: The function uses the \texttt{push\_back} function to add elements to the end of a vector.
+\end{itemize}
+
+\end{document}
