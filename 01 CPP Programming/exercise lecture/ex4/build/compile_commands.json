@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build",
+  "command": "/usr/bin/g++ -Dfunc_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4\" -g -fPIC -o CMakeFiles/func.dir/func.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/func.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/func.cpp",
+  "output": "CMakeFiles/func.dir/func.cpp.o"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build",
+  "command": "/usr/bin/g++ -Dfunc_EXPORTS -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4\" -g -fPIC -o CMakeFiles/func.dir/lamb.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/lamb.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/lamb.cpp",
+  "output": "CMakeFiles/func.dir/lamb.cpp.o"
+},
+{
+  "directory": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build",
+  "command": "/usr/bin/g++  -I\"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4\" -g -o CMakeFiles/run.dir/main.cpp.o -c \"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/main.cpp\"",
+  "file": "/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/main.cpp",
+  "output": "CMakeFiles/run.dir/main.cpp.o"
+}
+]

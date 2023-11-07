@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libfunc.so -o libfunc.so CMakeFiles/func.dir/func.cpp.o CMakeFiles/func.dir/lamb.cpp.o 

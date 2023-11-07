@@ -1,0 +1,4 @@
+/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build/CMakeFiles/func.dir
+/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build/CMakeFiles/run.dir
+/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build/CMakeFiles/edit_cache.dir
+/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build/CMakeFiles/rebuild_cache.dir

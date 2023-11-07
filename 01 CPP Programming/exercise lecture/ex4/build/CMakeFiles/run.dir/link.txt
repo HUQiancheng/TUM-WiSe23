@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/run.dir/main.cpp.o -o run  -Wl,-rpath,"/home/lukas/Desktop/TUM-WiSe23/01 CPP Programming/exercise lecture/ex4/build" libfunc.so 
